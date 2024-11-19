@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL3EA5vFuw3"
-#define BLYNK_TEMPLATE_NAME "temperature and humidity"
-#define BLYNK_AUTH_TOKEN "dWMY5LBFQ3jmW2HpZ6Qx6sLFFitaiXGC"
+#define BLYNK_TEMPLATE_ID "TMPL3gfj8Eu7S"
+#define BLYNK_TEMPLATE_NAME "Temperature and Humidity Monitor"
+#define BLYNK_AUTH_TOKEN "cxtg7lnkGXOuAa1YGk67nCmEyuj4DrU6"
 
 #include <WiFi.h>
 #include <WiFiClient.h>
@@ -15,7 +15,7 @@ char pass[] = "123456789";
 char auth[] = BLYNK_AUTH_TOKEN;
 
 // Define the LED pin.
-const int ledPin = 4;
+const int ledPin = 2;
 
 // Create a Servo object.
 Servo myServo;
